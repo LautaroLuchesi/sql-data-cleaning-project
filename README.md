@@ -6,6 +6,93 @@ El objetivo del proyecto es demostrar un flujo completo de trabajo en análisis 
 
 ---
 
+# Business Problem
+
+En muchos entornos empresariales los datos operativos contienen errores que afectan la calidad del análisis.  
+Registros duplicados, valores nulos, inconsistencias en categorías y formatos de fecha incorrectos son problemas comunes que pueden generar conclusiones erróneas.
+
+En este proyecto se simula un escenario real donde una empresa necesita **mejorar la calidad de su base de datos de órdenes de clientes** antes de realizar análisis de negocio.
+
+El objetivo es identificar problemas de calidad en el dataset y aplicar un proceso estructurado de **data cleaning utilizando SQL**, generando un dataset confiable para análisis posteriores.
+
+---
+
+# Dataset
+
+El dataset utilizado representa un conjunto de **órdenes de clientes** e incluye información relacionada con:
+
+- datos del cliente
+- ubicación geográfica
+- fechas de registro y compra
+- monto de compra
+- estado de la orden
+
+El dataset fue diseñado para incluir **problemas comunes de calidad de datos**, como:
+
+- valores nulos
+- duplicados
+- inconsistencias en mayúsculas y minúsculas
+- formatos de fecha mixtos
+- categorías mal estandarizadas
+- valores inválidos
+
+Esto permite simular un escenario realista de **preparación de datos para análisis**.
+
+---
+
+# Analysis
+
+El proyecto sigue un flujo típico de trabajo en análisis de datos.
+
+## Exploración de datos
+
+Se utilizaron consultas SQL para identificar problemas en el dataset, incluyendo:
+
+- conteo total de registros
+- detección de valores nulos
+- identificación de registros duplicados
+- revisión de categorías inconsistentes
+- detección de valores inválidos
+
+## Limpieza de datos
+
+Se aplicaron transformaciones para mejorar la calidad de los datos:
+
+- eliminación de espacios con `TRIM`
+- normalización de texto con `LOWER`
+- estandarización de categorías
+- tratamiento de valores nulos
+- eliminación de registros duplicados
+- eliminación de registros inválidos
+
+## Validación
+
+Después de la limpieza se ejecutaron consultas de control para verificar:
+
+- ausencia de duplicados
+- consistencia en categorías
+- reducción de valores nulos
+- integridad del dataset final
+
+## Análisis exploratorio
+
+Con el dataset limpio se realizaron consultas para obtener información relevante sobre el comportamiento de los clientes y las compras.
+
+---
+
+# Key Insights
+
+Una vez finalizado el proceso de limpieza y validación del dataset, se pudieron obtener algunos insights iniciales:
+
+- Se identificaron clientes con mayor volumen de gasto total.
+- Se observaron diferencias en el volumen de ventas según la ciudad.
+- Se analizaron los estados de las órdenes para comprender la proporción entre pedidos completados, pendientes o cancelados.
+- Se calculó el monto promedio de compra para comprender el comportamiento general de gasto.
+
+El proceso de limpieza permitió transformar un dataset con problemas de calidad en una base de datos **consistente y apta para análisis**, destacando la importancia del **data cleaning en proyectos de análisis de datos**.
+
+---
+
 # Visualización del proceso
 
 ## Dataset original (antes de la limpieza)

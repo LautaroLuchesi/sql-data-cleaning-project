@@ -21,20 +21,20 @@ El objetivo es identificar problemas de calidad en el dataset y aplicar un proce
 
 El dataset utilizado representa un conjunto de **órdenes de clientes** e incluye información relacionada con:
 
-- datos del cliente
-- ubicación geográfica
-- fechas de registro y compra
-- monto de compra
-- estado de la orden
+- Datos del cliente
+- Ubicación geográfica
+- Fechas de registro y compra
+- Monto de compra
+- Estado de la orden
 
 El dataset fue diseñado para incluir **problemas comunes de calidad de datos**, como:
 
-- valores nulos
-- duplicados
-- inconsistencias en mayúsculas y minúsculas
-- formatos de fecha mixtos
-- categorías mal estandarizadas
-- valores inválidos
+- Valores nulos
+- Duplicados
+- Inconsistencias en mayúsculas y minúsculas
+- Formatos de fecha mixtos
+- Categorías mal estandarizadas
+- Valores inválidos
 
 Esto permite simular un escenario realista de **preparación de datos para análisis**.
 
@@ -48,31 +48,31 @@ El proyecto sigue un flujo típico de trabajo en análisis de datos.
 
 Se utilizaron consultas SQL para identificar problemas en el dataset, incluyendo:
 
-- conteo total de registros
-- detección de valores nulos
-- identificación de registros duplicados
-- revisión de categorías inconsistentes
-- detección de valores inválidos
+- Conteo total de registros
+- Detección de valores nulos
+- Identificación de registros duplicados
+- Revisión de categorías inconsistentes
+- Detección de valores inválidos
 
 ## Limpieza de datos
 
 Se aplicaron transformaciones para mejorar la calidad de los datos:
 
-- eliminación de espacios con `TRIM`
-- normalización de texto con `LOWER`
-- estandarización de categorías
-- tratamiento de valores nulos
-- eliminación de registros duplicados
-- eliminación de registros inválidos
+- Eliminación de espacios con `TRIM`
+- Normalización de texto con `LOWER`
+- Estandarización de categorías
+- Tratamiento de valores nulos
+- Eliminación de registros duplicados
+- Eliminación de registros inválidos
 
 ## Validación
 
 Después de la limpieza se ejecutaron consultas de control para verificar:
 
-- ausencia de duplicados
-- consistencia en categorías
-- reducción de valores nulos
-- integridad del dataset final
+- Ausencia de duplicados
+- Consistencia en categorías
+- Reducción de valores nulos
+- Integridad del dataset final
 
 ## Análisis exploratorio
 

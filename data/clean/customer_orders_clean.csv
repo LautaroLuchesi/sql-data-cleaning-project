@@ -1,0 +1,31 @@
+customer_id,customer_name,email,city,signup_date,last_purchase_date,purchase_amount,status
+1,ana gomez,ana.gomez@gmail.com,buenos aires,2025-01-15,2025-01-20,1200.5,completed
+3,carlos ruiz,,cordoba,2025-02-03,2025-02-03,850.0,pending
+4,maría lopez,maria.lopez@gmail.com,cordoba,2025-02-04,2025-02-06,0,pending
+5,juan perez,juan.perez@gmail.com,rosario,2025-02-10,2025-02-11,540.99,canceled
+7,lucia fernández,luciaf@gmail.com,mendoza,2025-02-12,2025-02-14,2300.0,completed
+8,pedro sosa,,mendoza,2025-02-13,2025-02-14,2300.0,completed
+9,sofía martínez,sofia.martinez@gmail,la plata,2025-02-15,2025-02-17,999.99,completed
+10,tomas diaz,tomas.diaz@gmail.com,la plata,2025-02-15,2025-02-17,999.99,completed
+11,valentina castro,valen@gmail.com,san miguel de tucuman,2025-02-18,2025-02-18,1500.0,pending
+13,mateo rojas,mateo.rojas@gmail.com,salta,2025-02-20,2025-02-25,780.25,returned
+15,bruno silva,bruno.silva@gmail.com,neuquen,2025-02-22,2025-02-23,640.0,completed
+17,julieta vega,julieta.vega@gmail.com,mar del plata,2025-02-25,2025-02-26,0,pending
+18,nicolas herrera,n.herrera@gmail.com,mar del plata,2025-02-26,2025-02-28,1110.1,pending
+19,agustina rey,agustina.rey@gmail.com,bahía blanca,2025-03-01,2025-03-02,1320.0,completed
+21,franco ibarra,franco.ibarra@gmail.com,paraná,2025-03-03,2025-03-03,450.0,pending
+22,milagros acosta,milagros.acosta@gmail.com,parana,2025-03-03,2025-03-04,450.0,pending
+23,ezequiel luna,ezequiel.luna@gmail.com,santa fe,2025-03-04,2025-13-04,760.0,completed
+24,candela ortiz,candela.ortiz@gmail.com,santa fe,2025-03-05,2025-03-06,760.0,completed
+25,federico navarro,fede.navarro@gmail.com,san juan,2025-03-06,2025-03-07,880.8,unknown
+26,lara molina,lara.molina@gmail.com,san juan,2025-03-06,2025-03-07,880.8,completed
+27,gonzalo benitez,gonzalo@gmail.com,resistencia,2025-03-08,2025-03-09,510.5,completed
+29,paula medina,paula.medina@gmail.com,posadas,2025-03-10,2025-03-12,1250.0,completed
+31,emilia suárez,emilia.suarez@gmail.com,ushuaia,2025-03-11,2025-03-12,0,completed
+32,facundo pereyra,facundo.p@gmail.com,ushuaia,2025-03-11,,640.2,pending
+33,olivia neri,olivia.neri@gmail.com,rio gallegos,2025-03-13,2025-03-15,990.9,completed
+35,benjamin paz,benjamin.paz@gmail.com,comodoro rivadavia,2025-03-14,2025-03-16,1430.0,completed
+36,zoe cabrera,zoe.cabrera@gmail.com,unknown,2025-03-15,2025-03-17,1430.0,completed
+37,thiago medina,thiago.medina@gmail.com,jujuy,2025-03-16,2025-03-16,775.75,canceled
+38,mora leiva,mora.leiva@gmail.com,jujuy,2025-03-17,2025-03-18,775.75,canceled
+39,santiago flores,santiago.flores@gmail.com,catamarca,2025-03-18,2025-03-19,610.1,returned
